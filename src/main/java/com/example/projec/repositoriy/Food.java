@@ -1,4 +1,4 @@
-package repositoriy;
+package com.example.projec.repositoriy;
 
 public class Food {
     private int foodid;

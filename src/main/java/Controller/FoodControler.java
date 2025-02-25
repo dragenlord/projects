@@ -1,11 +1,13 @@
 package Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 import repositoriy.Food;
 
 import java.util.List;
-
+@RestController
 public class FoodControler {
+
     @GetMapping
     public List<Food> helloWorld(){
         return List.of(

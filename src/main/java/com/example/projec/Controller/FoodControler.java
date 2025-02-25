@@ -10,7 +10,7 @@ import java.util.List;
 public class FoodControler {
 
     @GetMapping
-    public List<Food> helloWorld(){
+    public List<Food> Food(){
         return List.of(
 
                 new Food(0,"Chiсken and potato"),
